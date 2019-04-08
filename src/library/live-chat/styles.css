@@ -1,0 +1,53 @@
+.livechat .card {
+  height: 90vh; 
+}
+
+.livechat .card-body {
+  overflow: scroll;
+    height: 80vh;
+}
+.msg-container{
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 75%;
+  margin-left: 10px;
+  border-radius: 25px 25px 25px 0;
+  background-color: #82ccdd;
+  padding: 10px;
+  position: relative;
+}
+
+.msg-container-send {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 75%;
+  margin-right: 10px;
+  border-radius: 25px 25px 0 25px;
+  background-color: #78e08f;
+  padding: 10px;
+  position: relative;
+}
+
+.tri-right.btm-left:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+  right: auto;
+  top: auto;
+	bottom: -20px;
+	border: 22px solid;
+	border-color: transparent transparent transparent #82ccdd;
+}
+.tri-right.btm-right:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: 0px;
+	bottom: -20px;
+	border: 12px solid;
+	border-color: #78e08f #78e08f transparent transparent;
+}

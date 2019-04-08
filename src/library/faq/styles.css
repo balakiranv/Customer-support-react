@@ -1,0 +1,75 @@
+.cards {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+}
+
+.cards :hover {
+    background-color: red ;
+    border: 1px solid #d0bfff;
+}
+.cards li {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.faq-container {
+    height: 100%;
+    flex-wrap: nowrap;
+    background-color: whitesmoke; 
+}
+
+.left-panel {
+    display: flex;
+    color: #777;
+    align-self: center;
+    text-align: center;
+}
+
+.right-panel {
+    border-left: thin solid #bbb;
+    margin: 0 20px;
+}
+
+.right-panel > div {
+    width: calc(100% - 5px);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right-panel .btn-light {
+    background-color: white;
+}
+
+.right-panel input {
+    border-radius: 1rem;
+}
+
+.right-panel .row {
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+}
+
+.right-panel .box {
+    display: flex;
+    height: 100px;
+    background: #fff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+ }
+
+ .right-panel .box:hover {
+    background: white;
+    border: thin solid #bbb;
+    cursor: pointer;
+ }
+
+ .right-panel .col-sm-3 {
+     margin-top: 10px;
+ }
