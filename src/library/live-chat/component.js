@@ -7,7 +7,7 @@ class Livechat extends Component {
       <div className="livechat container-fluid h-100">
 			<div className="row justify-content-end h-100">
 				<div className="col-md-8 col-xl-6 chat">
-					<div className="card">
+					<div className="card bg-whitesmoke">
 						<div className="card-body">
 							<div className="d-flex justify-content-start mb-4">
 								<div className="msg-container tri-right btm-left">

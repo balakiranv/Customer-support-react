@@ -5,7 +5,7 @@ class Faq extends Component {
     render() {
         return (
             <div className="container">
-                <div className="row faq-container">
+                <div className="row faq-container bg-whitesmoke">
                     <div className="col-sm-3 left-panel">
                         <div>
                             <h2>Prefer email instead?</h2>

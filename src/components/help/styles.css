@@ -1,3 +1,7 @@
 .react-tabs > ul {
   text-align: end;
 }
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
