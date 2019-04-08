@@ -55,7 +55,7 @@ class Mailus extends Component {
         return (
             <div className="row justify-content-end">
                 <div className="col-md-6 col-md-offset-3 bg-whitesmoke">
-                    <form>
+                    <form className="email-form">
                         {this.state.showAlert &&
                             <div className="form-group">
                             <div className="col-sm-12 input-group">
